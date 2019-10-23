@@ -1,2 +1,1 @@
-mklink "%HOMEDRIVE%%HOMEPATH%/_vimrc" .vimrc
-mklink "%HOMEDRIVE%%HOMEPATH%/_gvimrc" .gvimrc
+mklink "%HOMEDRIVE%%HOMEPATH%/_vimrc" "%CD%\.vimrc"
