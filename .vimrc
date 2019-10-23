@@ -33,4 +33,8 @@ autocmd FileType c,cpp set cindent
 " Golang style
 autocmd FileType go set noet
 
-
+" GVIM settings
+if has("gui_running")
+	set guifont=Consolas:h11:cANSI
+    colorscheme desert
+endif
