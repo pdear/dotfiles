@@ -36,3 +36,9 @@ autocmd FileType go set noet
 " Use spellcheck for TeX documents
 autocmd FileType tex set spell spelllang=en_us
 
+" GVIM settings
+if has("gui_running")
+	set guifont=Consolas:h11:cANSI
+    colorscheme desert
+endif
+
