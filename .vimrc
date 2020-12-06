@@ -33,4 +33,6 @@ autocmd FileType c,cpp set cindent
 " Golang style
 autocmd FileType go set noet
 
+" Use spellcheck for TeX documents
+autocmd FileType tex set spell spelllang=en_us
 
